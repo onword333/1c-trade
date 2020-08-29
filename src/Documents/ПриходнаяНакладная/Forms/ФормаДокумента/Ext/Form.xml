@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа2" id="52">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="53"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+<<<<<<< HEAD
+				<InputField name="Организация" id="7">
+					<DataPath>Объект.Организация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+				</InputField>
+=======
+>>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="54">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="55"/>
+			<ChildItems>
+<<<<<<< HEAD
+				<InputField name="Контрагент" id="62">
+					<DataPath>Объект.Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="64"/>
+=======
+				<InputField name="Организация" id="7">
+					<DataPath>Объект.Организация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+>>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
+				</InputField>
+				<InputField name="Склад" id="59">
+					<DataPath>Объект.Склад</DataPath>
+					<ContextMenu name="СкладКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="61"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Запасы" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Запасы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЗапасыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ЗапасыКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ЗапасыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ЗапасыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>Запасы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗапасыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ЗапасыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЗапасыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>Запасы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗапасыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ЗапасыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЗапасыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>Запасы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗапасыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ЗапасыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+<<<<<<< HEAD
+			<Events>
+				<Event name="OnChange">ЗапасыПриИзменении</Event>
+			</Events>
+=======
+>>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
+			<ChildItems>
+				<LabelField name="ЗапасыНомерСтроки" id="23">
+					<DataPath>Объект.Запасы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ЗапасыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ЗапасыНоменклатура" id="26">
+					<DataPath>Объект.Запасы.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыНоменклатураКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ЗапасыНоменклатураРасширеннаяПодсказка" id="28"/>
+<<<<<<< HEAD
+					<Events>
+						<Event name="OnChange">ЗапасыНоменклатураПриИзменении</Event>
+					</Events>
+=======
+>>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
+				</InputField>
+				<InputField name="ЗапасыЕдиницаИзмерения" id="29">
+					<DataPath>Объект.Запасы.ЕдиницаИзмерения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыЕдиницаИзмеренияКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЗапасыЕдиницаИзмеренияРасширеннаяПодсказка" id="31"/>
+				</InputField>
+<<<<<<< HEAD
+				<InputField name="ЗапасыКоличество" id="47">
+					<DataPath>Объект.Запасы.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыКоличествоКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ЗапасыКоличествоРасширеннаяПодсказка" id="49"/>
+					<Events>
+						<Event name="OnChange">ЗапасыКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+=======
+>>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
+				<InputField name="ЗапасыЦена" id="32">
+					<DataPath>Объект.Запасы.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыЦенаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЗапасыЦенаРасширеннаяПодсказка" id="34"/>
+<<<<<<< HEAD
+					<Events>
+						<Event name="OnChange">ЗапасыЦенаПриИзменении</Event>
+					</Events>
+=======
+>>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
+				</InputField>
+				<InputField name="ЗапасыСумма" id="35">
+					<DataPath>Объект.Запасы.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыСуммаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ЗапасыСуммаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ЗапасыСтавкаНДС" id="38">
+					<DataPath>Объект.Запасы.СтавкаНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыСтавкаНДСКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ЗапасыСтавкаНДСРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ЗапасыСуммаНДС" id="41">
+					<DataPath>Объект.Запасы.СуммаНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыСуммаНДСКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ЗапасыСуммаНДСРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ЗапасыВсего" id="44">
+					<DataPath>Объект.Запасы.Всего</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыВсегоКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="46"/>
+				</InputField>
+<<<<<<< HEAD
+=======
+				<InputField name="ЗапасыКоличество" id="47">
+					<DataPath>Объект.Запасы.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗапасыКоличествоКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ЗапасыКоличествоРасширеннаяПодсказка" id="49"/>
+				</InputField>
+>>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПриходнаяНакладная</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
