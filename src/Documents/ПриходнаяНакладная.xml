@@ -60,7 +60,9 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНоменклатуры</xr:Item>
+			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -262,10 +264,7 @@
 							<Comment/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ЕдиницыИзмерения</v8:Type>
-<<<<<<< HEAD
 								<v8:Type>cfg:CatalogRef.КлассификаторЕдиницИзмерения</v8:Type>
-=======
->>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -393,15 +392,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-<<<<<<< HEAD
 								<v8:Type>cfg:CatalogRef.СтавкиНДС</v8:Type>
-=======
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
->>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -571,7 +562,6 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-<<<<<<< HEAD
 			<TabularSection uuid="c8225016-4527-4ee9-aedf-331855e206ce">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПриходнаяНакладная.Материалы" category="TabularSection">
@@ -969,8 +959,6 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-=======
->>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

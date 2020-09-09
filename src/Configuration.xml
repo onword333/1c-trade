@@ -124,11 +124,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Сервис</Subsystem>
-<<<<<<< HEAD
 			<CommonModule>УправлениеТорговлейКлиент</CommonModule>
 			<CommonModule>УправлениеТорговлейСервер</CommonModule>
-=======
->>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<CommonForm>Форма</CommonForm>
@@ -139,8 +136,10 @@
 			<Catalog>СтавкиНДС</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
+			<Catalog>ПартииНоменклатуры</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<DocumentNumerator>ПерсонифицированныйУчет</DocumentNumerator>
+			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
