@@ -108,11 +108,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-<<<<<<< HEAD
 					<FillValue xsi:type="xr:DesignTimeRef">Catalog.КлассификаторЕдиницИзмерения.шт</FillValue>
-=======
-					<FillValue xsi:type="xr:DesignTimeRef">Catalog.КлассификаторЕдиницИзмерения.</FillValue>
->>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
 					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -127,7 +123,6 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-<<<<<<< HEAD
 			<Attribute uuid="9f2b39a8-c494-4a88-8cc5-41bfd2ec2224">
 				<Properties>
 					<Name>СтавкаНДС</Name>
@@ -172,8 +167,6 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-=======
->>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

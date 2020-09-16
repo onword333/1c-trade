@@ -28,11 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-<<<<<<< HEAD
 					<v8:content>Единицы измерения</v8:content>
-=======
-					<v8:content>ЕдиницыИзмерения</v8:content>
->>>>>>> 841ea01ceb439cd2cc1b4bb01cc9cdbfcb41b894
 				</v8:item>
 			</Synonym>
 			<Comment>Ед. изм.</Comment>
@@ -57,7 +53,7 @@
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
-			<QuickChoice>false</QuickChoice>
+			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
 				<xr:Field>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</xr:Field>
@@ -86,7 +82,7 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
+			<CreateOnInput>DontUse</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
