@@ -110,6 +110,9 @@
 					<ChooseType>false</ChooseType>
 					<ContextMenu name="ЗапасыЕдиницаИзмеренияКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ЗапасыЕдиницаИзмеренияРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="ChoiceProcessing">ЗапасыЕдиницаИзмеренияОбработкаВыбора</Event>
+					</Events>
 				</InputField>
 				<InputField name="ЗапасыКоличество" id="47">
 					<DataPath>Объект.Запасы.Количество</DataPath>
